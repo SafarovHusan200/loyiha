@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(img/toshkentcity.jpg);
+    background-repeat: no-repeat;
+    background-size: 1520px 750px;
+
+}
+.kirish{
+    width: 280px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    color: white;
+}
+.kirish h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid #8bc34a;
+    margin-bottom: 50px;
+    padding: 13px 0;
+
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #8bc34a;
+
+
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    width: 80%;
+    float: left;
+    /* margin: 0 10px; */
+}
+
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid #8bc34a;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    align-items: center;
+    text-align: center;
+    /* border: none; */
+
+}
+a{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+}
+ a .btn:hover{
+     background-color: #8bc34a;
+ }
